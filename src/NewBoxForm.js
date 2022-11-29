@@ -2,9 +2,9 @@ import React, {useState} from "react";
 
 const NewBoxForm = ({ addBox }) => {
   const INITIAL_STATE = {
-    color: '',
-    width: '',
-    height: '',
+    color: 'black',
+    width: '5',
+    height: '5',
   }
   const [formData, setFormData] = useState(INITIAL_STATE);
   const handleChange = (e) => {
